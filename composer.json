@@ -1,6 +1,9 @@
 {
     "name": "gustavofraga/domain-events-php",
     "description": "A simple domain event based PHP application",
+    "require": {
+        "php": "^8.1"
+    },
     "autoload": {
         "psr-4": {
             "Domain\\": "src/",
