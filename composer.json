@@ -1,0 +1,16 @@
+{
+    "name": "gustavofraga/domain-events-php",
+    "description": "A simple domain event based PHP application",
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/",
+            "Infrastructure\\": "application/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Fraga",
+            "email": "gustavolafraga@gmail.com"
+        }
+    ]
+}

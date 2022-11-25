@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  cli:
+    build:
+      context: ./
+      dockerfile: .setup/build/Dockerfile
+    container_name: domain-events-conference
+    volumes:
+      - ./:/var/www/localhost/htdocs
+    ports:
+      - "9000:80"
